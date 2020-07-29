@@ -21,13 +21,15 @@ We also provide online resources, especially videos and calculators for computin
 ### Public Key Encryption – Unit Plan.pdf 
 This unit Plan contains essential questions, as well as pre- and summative assessments, appropriate standards, and suggested sequence of lessons.  Each lesson has academic tasks that can be turned into learning objectives with appropriate DOK level, key facts on what you should include in each lesson, as well as appropriate differentiation/pedagogical techniques.
 
-### learning guide understanding rsa encryption moscoe - 
-Student-facing document including an introduction to the topic, a review of the relevant mathematics, and a walkthrough of a simple example of RSA encryption/decryption. 
+### learning guide understanding rsa encryption moscoe.docx
+### learning guide understanding rsa encryption moscoe.pdf  
+These student-facing documents include an introduction to the topic, a review of the relevant mathematics, and a walkthrough of a simple example of RSA encryption/decryption. 
 Checks for Understanding could serve as formative or summative assessments.
 
-### learning guide rsa runtime analysis moscoe -  
+### learning guide rsa runtime analysis moscoe.docx
+### learning guide rsa runtime analysis moscoe.pdf  
 
-Student-facing document relating fundamental big-O run-time concepts to the prime factorization and multiplication algorithms found in funwithrsa.java. 
+These student-facing documents relate fundamental big-O run-time concepts to the prime factorization and multiplication algorithms found in funwithrsa.java. 
 Students develop an understanding of the very long run-times required to decrypt RSA by analyzing graphical data. 
 Checks for Understanding could serve as formative or summative assessments.
 
