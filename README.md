@@ -35,11 +35,17 @@ Checks for Understanding could serve as formative or summative assessments.
 
 ### PublicKeyEncryption*.java 
 This set of java files serve as coding templates for students to create their own implementation of the RSA algorithm. 
+
 PublicKeyEncryption.java contains the full working code. 
-PublicKeyEncryptionMild.java, PublicKeyEncryptionMedium.java, and PublicKeyEncryptionSpicy.java serve as differentiated student facing activities with varying levels of scaffolding. (Mild provides the greatest level of scaffolding, and spicy the least)
+
+PublicKeyEncryptionMild.java, PublicKeyEncryptionMedium.java, and PublicKeyEncryptionSpicy.java serve as differentiated student facing activities with varying levels of scaffolding. 
 
 ### EncryptDecryptDriver*.java   
 This set of java files contain methods to accept input, format output, and test student work on PublicKeyEncryption*.java.
+
+EncryptDecryptDriver.java contains the full working code.
+
+EncryptDecryptDriverMild.java, EncryptDecryptDriverMedium.java, and EncryptDecryptDriverSpicy.java are differentiated with varying levels of scaffolding. 
 
 ### funwithrsa.java. 
 This java file contains methods for prime factorizing, and multiplying large numbers used to generate data for runtime analysis.
