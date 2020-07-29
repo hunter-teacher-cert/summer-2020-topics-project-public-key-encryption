@@ -31,7 +31,7 @@ public class EncryptDecryptDriver{
 		// Prompt the user to enter the second part of the public key (e or d):
 		System.out.print("\nEnter second part of the key (e or d): ");
 		
-		// Store e in a variable:
+		// Store e or d in a variable:
 		long eOrD = input.nextLong();
 		
 		// Encrypt the message and display it to the user:

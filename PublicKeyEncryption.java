@@ -4,26 +4,31 @@ import java.util.*;
 /*
 
 Hunter CS Program
-PublicKeyEncryption() Class
+Public Key Encryption Project
+Daniel Moscoe, Sangmin Pak, and Jonathan Swotinsky
+
+Full Code
+
+Note: 
+The methods used in this program to determine the values of n, Phi, e, and d, as
+well as the method for encrypting and decrypting numeric messages are based on the 
+RSA algorithm described in the you tube video provided by Mike Zamansky and accessible
+at the following site:
+
+https://www.youtube.com/watch?v=Z8M2BTscoD4&amp;list=WL&amp;index=76&amp;t=356s
 
 */
 
 
 public class PublicKeyEncryption{
     
-	////////////////////Instance Variables////////////////////
+	////////////////////Variables////////////////////
 	
-	private static long p = 229; //50th prime number
-	private static long q = 523; //99th prime number
-	private static long n = p * q;
-	private static long e = 2;
-    
-	
-	////////////////////Constructors////////////////////
-	
-    
-	
-	
+	private static long p = 229; // 50th prime number.  (Any large prime number could be selected)
+	private static long q = 523; // 99th prime number.  (Any large prime number could be selected)
+	private static long e = 2; // Set the initial value of e to 2.  The setE() method will change this value to a value that is acceptable for the RSA algorithm. 
+    private static long n = p * q; // Set n equal to the product of p and q.
+		
 	////////////////////Methods////////////////////
 	
 	/**
@@ -187,7 +192,7 @@ public class PublicKeyEncryption{
 	
 	
 	/**
-	* main
+	* main 
 	*/
 	public static void main(String[] args){
 		
@@ -287,4 +292,4 @@ public class PublicKeyEncryption{
 		
 	}// end main()
 	
-}// end LList class
+}// end PublicKeyEncryption() class
