@@ -31,7 +31,7 @@ public class funwithrsa {
 	public static void main(String[] args) {
 		
 		//starting from 2, count up to 30,000 by about 100 each jump. Prime factorize the number you land on 10,000 times. This is used to see how the length of time required to prime factorize a number increases (on average) as the number increases.
-		
+		System.out.println("i    time to square    time to prime factorize");		
 		for (int i = 2; i < 30000; i = i + (97 + ((int)(6 * Math.random())))) {
 			long m = System.currentTimeMillis();
 				for (int j = 0; j < 10000; j++) {
